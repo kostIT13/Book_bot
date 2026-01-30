@@ -15,3 +15,25 @@ Telegram-бот для удобного чтения книг с поддерж�
 - Python 3.11+
 - Aiogram 3.x (асинхронный фреймворк для Telegram Bot API)
 - Pydantic (валидация конфигурации)
+
+## 🚀 Установка и запуск
+
+1. Клонируйте репозиторий:
+```bash
+git clone https://github.com/kostIT13/Book_bot.git
+cd Book_bot
+```
+2. Установите зависимости:
+```bash
+pip install -r requirements.txt
+```
+3. Создайте файл конфигурации .env:
+```bash
+env
+BOT_TOKEN=ваш_токен_бота
+```
+4. Поместите книгу в формате .txt в папку book/
+5. Запустите бота:
+```bash
+python main.py
+```
